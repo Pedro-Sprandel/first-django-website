@@ -19,7 +19,7 @@ def contato(request):
                 assunto,
                 corpo_email,
                 email,  # remetente
-                ['pedrosprandel27@gmail.com'],  # destinatário
+                ['<RECIPIENT-NAME>'],  # destinatário
             )
 
             form = forms.ContatoForm()
